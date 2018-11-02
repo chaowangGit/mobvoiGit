@@ -77,8 +77,8 @@ public class PersonController {
 
     @PutMapping(value = "/person/{id}")
     public Person personUpdate(@PathVariable("id") Integer id,
-                               @PathVariable("name") String name,
-                               @PathVariable("age") Integer age){
+                               @RequestParam("name") String name,
+                               @RequestParam("age") Integer age){
         Person person = new Person();
         person.setId(id);
         person.setName(name);

@@ -30,7 +30,7 @@ public class PerosnService {
         personA.setName("海淀");
         personRepository.save(personA);
 
-        System.out.print(1/0);
+        System.out.print("--------");
 
         Person personB = new Person();
         personB.setName("朝阳");
