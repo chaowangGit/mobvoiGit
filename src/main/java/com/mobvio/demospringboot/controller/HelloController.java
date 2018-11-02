@@ -1,8 +1,7 @@
-package com.mobvio.demospringboot.Controller;
+package com.mobvio.demospringboot.controller;
 
 import com.mobvio.demospringboot.PersonProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,4 +21,5 @@ public class HelloController {
     public String say(){
         return personProperties.getName() + personProperties.getAge();
     }
+
 }
