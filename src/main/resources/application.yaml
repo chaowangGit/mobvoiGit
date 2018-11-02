@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: a
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:myql:127.0.0.1:3306/db_person
+    username: mysqluser1
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
