@@ -10,8 +10,11 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "person")
 public class PersonProperties {
+
     private String name;
     private Integer age;
+
+
 
     public String getName() {
         return name;
