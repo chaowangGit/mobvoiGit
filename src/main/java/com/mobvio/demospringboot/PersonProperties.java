@@ -4,8 +4,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
+ * @author  chao.wang
  *
- * 2018-11-2
+ * @date 2018-11-2
  */
 @Component
 @ConfigurationProperties(prefix = "person")

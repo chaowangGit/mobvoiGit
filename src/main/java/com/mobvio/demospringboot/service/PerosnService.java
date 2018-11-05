@@ -22,8 +22,8 @@ public class PerosnService {
     @Autowired
     PersonRepository personRepository;
 
-    @Transactional
-    public  void  insertTwo(){
+    @Transactional(rollbackOn = Exception.class)
+    public void  insertTwo(){
 
         Person personA = new Person();
         personA.setAge(12);

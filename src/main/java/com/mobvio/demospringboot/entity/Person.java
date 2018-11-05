@@ -10,6 +10,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * @author  chaowang
+ *
+ * @date  2018-11-5
+ */
+
 @Entity
 @Table
 @Data

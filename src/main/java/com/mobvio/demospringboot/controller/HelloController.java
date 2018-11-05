@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * chao.wang
- * 2018-11-02
+ * @author chao.wang
+ * @date 2018-11-02
  *
  */
 

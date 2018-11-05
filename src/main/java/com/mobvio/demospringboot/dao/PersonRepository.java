@@ -5,6 +5,13 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
+/**
+ * @author   chao wang
+ *
+ * @date  2018-11-5
+ *
+ */
+
 public interface PersonRepository extends JpaRepository<Person, Integer> {
 
 
